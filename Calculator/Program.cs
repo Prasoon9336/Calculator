@@ -43,6 +43,9 @@ namespace Calculator
                 Console.WriteLine((x % y));
                 Console.ReadLine();
             }
+            else if (z == 6) {                 Console.WriteLine("Exiting...");
+                Console.ReadLine();
+            }
             else
             {
                 Console.WriteLine("Invalid Operation, Retry Again");
