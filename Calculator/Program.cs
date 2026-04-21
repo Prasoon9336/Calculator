@@ -15,7 +15,7 @@ namespace Calculator
             int y = Convert.ToInt32(Console.ReadLine());
         Start:
             Console.WriteLine("Enter Operation: ");
-            Console.WriteLine("1 Add, 2 Sub, 3 Multi, 4 division, 5 Remainder");
+            Console.WriteLine("1 Add, 2 Sub, 3 Multi, 4 division, 5 Remainder, 6 Increment Both Values, 7 Decrement Both Values");
             int z = Convert.ToInt32(Console.ReadLine());
 
             if (z == 1)
