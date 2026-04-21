@@ -44,11 +44,11 @@ namespace Calculator
                 Console.ReadLine();
             }
             else if (z == 6) {
-                Console.WriteLine((x++ , y++));
+                Console.WriteLine((++x , ++y));
             }
             else if (z == 7)
             {
-                Console.WriteLine((x-- , y--));
+                Console.WriteLine((--x , --y));
             }
             else
             {
